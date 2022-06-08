@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login and register</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="content-register  mx-auto mt-5  align-items-center justify-content-center ">
+  <div class="login container mt-5 p-5 text-center">
+    <form class="register ">
+      <h1 class="mb-4">Smart register System</h1>
+      <input
+      type="text"
+      required
+      id="nameInput"
+      class="w-100 mb-3 text-white form-control"
+      placeholder="Enter Your name"
+    />
+    <input
+      type="email"
+      required
+      id="emailInput"
+      class="w-100 mb-3 text-white form-control"
+      placeholder="Enter Your email"
+    />
+    <div class="position-relative">
+      <input
+        type="password"
+        required
+        id="passwordInput"
+        class="password w-100 text-white mb-4 form-control"
+        placeholder="Enter Your password"
+      />
+      <i class="fas fa-eye-slash showHide text-white"></i>
+    </div>
+
+    <button class="btn btn-outline-info mb-4 w-100 registerBtn">sign up</button>
+    <span class="text-white">
+      Don’t have an account?
+      <span class="SignIn message-register  text-white">Sign In</span>
+    </span>
+    
+    </form>
+  </div>
+</div>
+
+ <div class="content-login  mx-auto mt-5  align-items-center justify-content-center ">
+  <div class="login container mt-5 p-5 text-center">
+    <form class="login ">
+      <h1 class="mb-4">Smart login System</h1>
+      
+    <input
+      type="email"
+      required
+      id="emailInput2"
+      class="w-100 mb-3 text-white form-control"
+      placeholder="Enter Your email"
+    />
+    <div class="position-relative">
+      <input
+        type="password"
+        required
+        id="passwordInput"
+        class="passwordLogin w-100 text-white mb-4 form-control"
+        placeholder="Enter Your password"
+      />
+      <i class="fas fa-eye-slash showHide text-white"></i>
+    </div>
+
+    <button class="btn btn-outline-info mb-4 w-100 loginBtn">sign up</button>
+    <span class="text-white">
+      Don’t have an account?
+      <span class="SignIn message-login  text-white">Sign out</span>
+    </span>
+    
+    </form>
+  </div>
+</div>
+<script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

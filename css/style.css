@@ -1,0 +1,64 @@
+/* 
+i
+{
+  cursor: pointer;
+} */
+
+body {
+  background-color: #24353f;
+  font-family: "Titillium Web", sans-serif;
+}
+h1 {
+  color: #17a2b8;
+}
+form .message-register,i,form .message-login
+{
+  cursor: pointer;
+}
+ :is(.content-login,.content-register) {
+  width: 60%;
+  box-shadow: -5px 2px 54px -9px rgb(0 0 0);
+}
+.content-login
+{
+  display: none;
+}
+.content-register
+{
+  display: flex;
+}
+.content-login
+{
+  height: 450px;
+}
+
+input {
+  background-color: transparent !important;
+  /* color: white; */
+}
+
+input:focus
+{
+    box-shadow: transparent 0px 0px 0px 0px !important;
+}
+.login .password
+{
+  /* position: relative; */
+}
+.login a
+{
+    transition: all 0.2s ease;
+}
+.login a:hover
+{
+  border-bottom: 2px solid white;
+}
+.login i
+{
+  position:absolute;
+  right: 2px;
+  top: 35%;
+  transform: translate(-50%);
+  /* background-color: aqua; */
+  cursor: pointer;
+}
